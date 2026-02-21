@@ -1,0 +1,1 @@
+import os\n\nDATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./chat.db")  # Production: postgresql://user:pass@host/db\nSECRET_KEY = os.getenv("SECRET_KEY", "changemeverysecure")\nALGORITHM = "HS256"\nACCESS_TOKEN_EXPIRE_MINUTES = 30
