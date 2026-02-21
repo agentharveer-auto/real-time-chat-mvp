@@ -1,0 +1,1 @@
+This repository contains the backend and frontend code for the Real-Time Chat MVP. The README.md provides setup and architecture details.
